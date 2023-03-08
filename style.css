@@ -1,0 +1,153 @@
+@import  url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+    --color-white: #ffffff;
+    --color-gray: #c0c0c0;
+    --color-blue: #167bf7;
+    --color-black: #00030c;
+    --color-blue2: #16d9f7;
+    --fonte-core: 'Inter';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    font-family: var(--fonte-core);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.corecontent {
+    background-image: url("/Assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__button {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 1em;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.container__button:hover {
+    background-color: var(--color-blue2);
+    color: #00030c;
+}
+
+.secundary_button {
+    background-color: transparent;
+    border: 2px solid var(--color-white);
+}
+
+.container__notice {
+    font-size: 0.75rem;
+    color: var(--color-gray);
+}
+
+.container__title {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.container__img {
+    margin: 1em 0 2em 0;
+}
+
+.container__box {
+    margin: 0 6em;
+}
+
+.secundary__img {
+    width: 80%;
+}
+
+.secundary {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.description__title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--color-white);
+    margin-bottom: 0.1em;
+}
+
+.description__text {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-gray);
+}
+
+.tertiary__button {
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.dispositives {
+    text-align: center;
+}
+.dispositives__title {
+    font-size: 3rem;
+    color: var(--color-white);
+}
+
+.dispositives__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.list__item {
+    font: 2rem;
+    color: var(--color-white);
+}
+
+.footer {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.list__link a{
+    text-decoration: none;
+    color: var(--color-white);
+    margin-left: 1em;
+}
+
+.footer__text {
+    margin: 1em 0;
+    color: var(--color-gray);
+    font-size: 14px;
+}
+
+.list__link a:hover {
+    color: var(--color-blue);
+}
+
+.list__link a:active {
+    color: blueviolet;
+}
